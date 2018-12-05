@@ -45,6 +45,12 @@ public class algorithm1_5 {
         int[] nums4 = {3, 4};
         System.out.println(findMedianSortedArrays(nums3, nums4));
 
+        int x = 5;
+        int y1 = (x + 1)/2;
+        int y2 = (x)/2;
+        System.out.println(y1);
+        System.out.println(y2);
+
     }
 
     // 1.两数之和
@@ -159,9 +165,8 @@ public class algorithm1_5 {
         return ans;
     }
 
-    // 5.寻找两个数组的中位数
+    // 4.寻找两个数组的中位数
     public static double findMedianSortedArrays(int[] A, int[] B) {
-
         int m = A.length;
         int n = B.length;
         if (m > n) { // to ensure m<=n
